@@ -24,7 +24,7 @@ AES-Project/
 🔥 Model Comparison
 <div style="border: 1px solid #9C27B0; padding: 15px; border-radius: 10px;"> <table> <thead> <tr> <th>Model</th> <th>R² Score</th> <th>Notes</th> </tr> </thead> <tbody> <tr> <td><b>Linear Regression</b></td> <td>0.40–0.45</td> <td>Simple baseline</td> </tr> <tr> <td><b>Random Forest</b></td> <td>~0.68</td> <td>Strong classical model</td> </tr> <tr> <td><b>Gradient Boosting</b></td> <td>~0.70</td> <td>Handles non-linear patterns</td> </tr> <tr> <td><b>XGBoost</b></td> <td>~0.75</td> <td>High performance</td> </tr> <tr> <td><b>BERT / RoBERTa Regression Model</b></td> <td>0.80–0.82</td> <td>Best overall results</td> </tr> </tbody> </table> </div>
 
-📘## **Notebook: Model_Usage.ipynb**
+📘##**Notebook: Model_Usage.ipynb**
 
 **The notebook performs:**
 

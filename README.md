@@ -79,3 +79,14 @@ Generating predictions
     ✔️ After completing these steps, the system is ready for use.
 </p>
 
+📄 **License**
+
+This project is licensed under the MIT License.
+
+📎 **References**
+
+Kaggle AES 2 Dataset
+
+CEP PDF (in /References/)
+
+Standard NLP & AES literature

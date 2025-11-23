@@ -35,17 +35,58 @@ ML + Transformer model training
 Model evaluation
 Generating predictions
 
+<!-- HOW TO RUN SECTION -->
+<h2 style="font-weight:700; margin-bottom:10px;">🚀 How to Run the Project</h2>
 
-▶️ ##**How to Run the Project**
+<div style="
+    border: 1px solid #ddd;
+    padding: 18px;
+    border-radius: 10px;
+    background: #fafafa;
+">
 
-1️⃣ **Install Requirements**
+    <!-- Step 1 -->
+    <h3 style="margin-top:0; color:#333;">1. Install Dependencies</h3>
+    <p>Make sure Python 3.8+ is installed, then run:</p>
+    <pre style="
+        background:#272822; 
+        color:#f8f8f2; 
+        padding:12px; 
+        border-radius:6px;
+        overflow:auto;
+    "><code>pip install -r requirements.txt</code></pre>
 
-pip install -r Requirements.txt
+    <!-- Step 2 -->
+    <h3 style="color:#333;">2. Download spaCy Language Model</h3>
+    <p>This project uses spaCy for text preprocessing. Install the required model:</p>
+    <pre style="
+        background:#272822; 
+        color:#f8f8f2; 
+        padding:12px; 
+        border-radius:6px;
+        overflow:auto;
+    "><code>python -m spacy download en_core_web_sm</code></pre>
 
-2️⃣ **Download spaCy model**
+    <!-- Step 3 -->
+    <h3 style="color:#333;">3. Open the Notebook</h3>
+    <p>Run the main project notebook from your preferred environment:</p>
 
-python -m spacy download en_core_web_sm
+    <ul>
+        <li>Google Colab</li>
+        <li>Jupyter Notebook</li>
+        <li>VS Code (Jupyter Extension)</li>
+    </ul>
 
-Open Notebook
+    <pre style="
+        background:#272822; 
+        color:#f8f8f2; 
+        padding:12px; 
+        border-radius:6px;
+        overflow:auto;
+    "><code>Notebook/Model_Usage.ipynb</code></pre>
 
-Notebook/Model_Usage.ipynb
+    <p style="margin-top:20px; font-weight:600; color:#444;">
+        ✔️ After completing these steps, the system is ready for use.
+    </p>
+
+</div>

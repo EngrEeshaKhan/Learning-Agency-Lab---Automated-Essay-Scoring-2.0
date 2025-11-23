@@ -35,7 +35,6 @@ ML + Transformer model training
 Model evaluation
 Generating predictions
 
-<!-- HOW TO RUN SECTION -->
 <h2 style="font-weight:700; margin-bottom:10px;">🚀 How to Run the Project</h2>
 
 <div style="

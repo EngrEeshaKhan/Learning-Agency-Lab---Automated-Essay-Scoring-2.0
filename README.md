@@ -1,1 +1,1 @@
-
+<h1 align="center">📘 Automated Essay Scoring (AES)</h1> <div style="border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; margin-bottom: 20px;"> <h3>📌 Project Overview</h3> <p> This project implements an Automated Essay Scoring (AES) system trained on the <b>Learning Agency Lab – AES 2 Kaggle dataset</b>. The system evaluates essays based on linguistic richness, coherence, structure, and semantic quality to predict their final human-assigned score. </p> </div>

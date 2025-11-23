@@ -16,6 +16,7 @@ AES-Project/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 <div style="border: 1px solid #2196F3; padding: 15px; border-radius: 10px; margin-bottom: 20px;"> <h3>📊 Dataset Description</h3> <p> The dataset comes from the <b>Learning Agency Lab Automated Essay Scoring 2</b> challenge (Kaggle). It contains thousands of student essays, each scored by human graders. </p> <p><b>Included in the dataset:</b></p> <ul> <li>Essay text</li> <li>Human-assigned scores</li> <li>Essay set information</li> <li>Training & testing partitions</li> </ul> </div>
 🧹 Preprocessing Pipeline
 <div style="border: 1px solid #FF9800; padding: 15px; border-radius: 10px;"> <ul> <li>Lowercasing & normalization</li> <li>Removing special characters</li> <li>Tokenization (NLTK + spaCy)</li> <li>Lemmatization</li> <li>Stopword removal</li> <li>Sentence segmentation</li> <li>Grammar/spelling cleanup</li> <li>Removal of extremely short essays</li> </ul> </div>
@@ -24,7 +25,7 @@ AES-Project/
 🔥 Model Comparison
 <div style="border: 1px solid #9C27B0; padding: 15px; border-radius: 10px;"> <table> <thead> <tr> <th>Model</th> <th>R² Score</th> <th>Notes</th> </tr> </thead> <tbody> <tr> <td><b>Linear Regression</b></td> <td>0.40–0.45</td> <td>Simple baseline</td> </tr> <tr> <td><b>Random Forest</b></td> <td>~0.68</td> <td>Strong classical model</td> </tr> <tr> <td><b>Gradient Boosting</b></td> <td>~0.70</td> <td>Handles non-linear patterns</td> </tr> <tr> <td><b>XGBoost</b></td> <td>~0.75</td> <td>High performance</td> </tr> <tr> <td><b>BERT / RoBERTa Regression Model</b></td> <td>0.80–0.82</td> <td>Best overall results</td> </tr> </tbody> </table> </div>
 
-📘##**Notebook: Model_Usage.ipynb**
+📘**Notebook: Model_Usage.ipynb**
 
 **The notebook performs:**
 

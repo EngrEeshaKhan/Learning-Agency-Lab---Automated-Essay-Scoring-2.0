@@ -41,7 +41,49 @@ AES-Project/
 
 ---
 🔥 **Model Comparison**
-<div style="border: 1px solid #9C27B0; padding: 15px; border-radius: 10px;"> <table> <thead> <tr> <th>Model</th> <th>R² Score</th> <th>Notes</th> </tr> </thead> <tbody> <tr> <td><b>Linear Regression</b></td> <td>0.40–0.45</td> <td>Simple baseline</td> </tr> <tr> <td><b>Random Forest</b></td> <td>~0.68</td> <td>Strong classical model</td> </tr> <tr> <td><b>Gradient Boosting</b></td> <td>~0.70</td> <td>Handles non-linear patterns</td> </tr> <tr> <td><b>XGBoost</b></td> <td>~0.75</td> <td>High performance</td> </tr> <tr> <td><b>BERT / RoBERTa Regression Model</b></td> <td>0.80–0.82</td> <td>Best overall results</td> </tr> </tbody> </table> </div>
+<div style="border: 2px solid #9C27B0; padding: 20px; border-radius: 12px; margin-top: 10px;"> <table style="width:100%; border-collapse: collapse; text-align: center;">
+<thead>
+  <tr style="background-color:#f3e5f5; font-size: 16px;">
+    <th style="padding: 12px; border: 1px solid #9C27B0;">Model</th>
+    <th style="padding: 12px; border: 1px solid #9C27B0;">R² Score</th>
+    <th style="padding: 12px; border: 1px solid #9C27B0;">Notes</th>
+  </tr>
+</thead>
+
+<tbody style="font-size: 15px;">
+  
+  <tr>
+    <td style="padding: 10px; border: 1px solid #9C27B0;"><b>Linear Regression</b></td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">0.40–0.45</td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">Simple baseline</td>
+  </tr>
+
+  <tr style="background-color:#f8f1fa;">
+    <td style="padding: 10px; border: 1px solid #9C27B0;"><b>Random Forest</b></td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">~0.68</td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">Strong classical model</td>
+  </tr>
+
+  <tr>
+    <td style="padding: 10px; border: 1px solid #9C27B0;"><b>Gradient Boosting</b></td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">~0.70</td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">Handles non-linear patterns</td>
+  </tr>
+
+  <tr style="background-color:#f8f1fa;">
+    <td style="padding: 10px; border: 1px solid #9C27B0;"><b>XGBoost</b></td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">~0.75</td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">High performance</td>
+  </tr>
+
+  <tr>
+    <td style="padding: 10px; border: 1px solid #9C27B0;"><b>BERT / RoBERTa Regression Model</b></td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">0.80–0.82</td>
+    <td style="padding: 10px; border: 1px solid #9C27B0;">Best overall results</td>
+  </tr>
+
+</tbody>
+
 
 ---
 📘**Notebook: Model_Usage.ipynb**

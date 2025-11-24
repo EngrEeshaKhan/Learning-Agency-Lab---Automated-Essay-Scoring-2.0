@@ -100,6 +100,19 @@ Generating predictions
 </p>
 
 ---
+<div style="border: 1px solid #1976D2; padding: 12px; border-radius: 8px; margin-bottom: 20px;">
+  <h3>📎 Dataset Source</h3>
+  <p>
+    This project uses the dataset from the  
+    <b>Learning Agency Lab – Automated Essay Scoring 2</b> competition.
+  </p>
+  <p>
+    <a href="https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data" target="_blank">
+      🔗 Click to view the dataset on Kaggle
+    </a>
+  </p>
+</div>
+
 📄 **License**
 
 This project is licensed under the MIT License.

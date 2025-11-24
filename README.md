@@ -63,7 +63,7 @@ Generating predictions
     padding:12px; 
     border-radius:6px;
     overflow:auto;
-"><code>pip install -r requirements.txt</code></pre>
+"><code>pip install -r Requirements.txt</code></pre>
 
 <h3 style="color:#333;">2. Download spaCy Language Model</h3>
 <p>This project uses spaCy for text preprocessing. Install the required model:</p>

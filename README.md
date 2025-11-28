@@ -113,6 +113,11 @@ Generating predictions
   </p>
 </div>
 
+## Kaggle submission score
+
+<img width="655" height="176" alt="image" src="https://github.com/user-attachments/assets/705fa0b4-af6e-4144-91ea-28440019181a" />
+
+
 📄 **License**
 
 This project is licensed under the MIT License.
